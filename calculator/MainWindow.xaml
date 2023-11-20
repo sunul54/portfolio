@@ -1,0 +1,126 @@
+﻿<Window x:Class="calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator"
+        mc:Ignorable="d"
+        Title="calculator" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock
+            x:Name="ResultText"
+            FontSize="25"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Text="" Grid.ColumnSpan="4"/>
+
+        <Button 
+            Margin="10"
+            Content="1"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="1" Grid.Column="0" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="2"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="1" Grid.Column="1" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="3"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="1" Grid.Column="2" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="4"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="2" Grid.Column="0" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="5"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="2" Grid.Column="1" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="6"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="2" Grid.Column="2" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="7"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="3" Grid.Column="0" Click="Button_Click_Number"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="8"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="3" Grid.Column="1" Click="Button_Click_Number"/>
+
+        <Button 
+            Margin="10,10,10,10"
+            Content="9"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="3" Click="Button_Click_Number" Grid.Column="2"/>
+
+        <Button 
+            Margin="10,10,10,10"
+            Content="0"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="4" Click="Button_Click_Number" Grid.Column="1"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="+"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="1" Click="Button_Click_Operator" Grid.Column="3"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="-"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="2" Click="Button_Click_Operator" Grid.Column="3"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="*"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="3" Click="Button_Click_Operator" Grid.Column="3"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="/"
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="4" Click="Button_Click_Operator" Grid.Column="3"/>
+        <Button 
+            Margin="10,10,10,10"
+            Content="="
+            FontSize="25"
+            Background="LightBlue"
+            Grid.Row="4" Click="Button_Click_Operator" Grid.Column="2"/>
+
+
+    </Grid>
+</Window>

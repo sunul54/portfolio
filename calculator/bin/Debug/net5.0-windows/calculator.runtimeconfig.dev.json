@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\seony\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\seony\\.nuget\\packages"
+    ]
+  }
+}
