@@ -16,4 +16,7 @@
 
 
 ## calculator
--
+- 언어: WPF  
+
+-WPF로 간단한 계산기 제작
+![calculator 그림1](calculator.gif)
