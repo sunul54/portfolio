@@ -6,7 +6,7 @@
 -클래스  
 
 -객체지향 언어인 C#을 사용해서 객체지향적으로 Snake Gmae을 콘솔로 재작
-![SnakeGame 그림1](SnakeGame.gif)
+![SnakeGame 그림1](./image/SnakeGame.gif)
 ## HorseRacingGame
 - 언어: C  
 
@@ -18,4 +18,4 @@
 - 언어: WPF  
 
 -WPF로 간단한 계산기 제작
-![calculator 그림1](calculator.gif)
+![calculator 그림1](./image/calculator.gif)
