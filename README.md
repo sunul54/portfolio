@@ -13,7 +13,9 @@
 ![HorseRacingGame 그림2](./image/HorseRacingGame_2.png)
 
 ## calculator
-- 언어: WPF  
+- 언어: C#
+- 
+- 프레임워크:WPF  
 
 -WPF로 간단한 계산기 제작
 ![calculator 그림1](./image/calculator.gif)
