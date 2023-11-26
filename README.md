@@ -1,5 +1,9 @@
 # 황선율 포트폴리오
 
+## 다룰 수 있는 언어 및 프레임워크
+- 언어: C, C++, C#, Java
+- 프레임워크 : WPF, Unity
+- 버전관리툴 : git, SourceTree
 ## SnakeGame
 - 언어: C#  
 
